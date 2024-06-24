@@ -4,7 +4,7 @@
 
 /* Media query to disable the class on mobile and medium devices */
 @media (max-width: 768px) {
-    .your-class {
+    .test {
         display: none;
         /* Or set other properties to neutralize the styles */
     }
