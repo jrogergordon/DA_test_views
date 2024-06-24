@@ -1,0 +1,12 @@
+/* Your existing CSS class */
+.test {
+    min-width: 200px;
+    background-color: blue;
+}
+
+/* Media query to disable the class on mobile and medium devices */
+@media (max-width: 768px) {
+    .test {
+        background-color: green;
+    }
+}
