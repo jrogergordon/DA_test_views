@@ -1,12 +1,19 @@
-/* Your existing CSS class */
+/* Default style that applies to all devices */
 .test {
-    min-width: 200px;
     background-color: blue;
 }
 
-/* Media query to disable the class on mobile and medium devices */
+/* Overwrite or disable the styles for mobile and medium devices */
 @media (max-width: 768px) {
+
+    /* Adjust the max-width as needed for medium devices */
     .test {
         background-color: green;
     }
 }
+
+/* Alternatively, you could define styles only for larger devices */
+@media (min-width: 769px) {
+    .test {
+        background-color: green;
+    }
